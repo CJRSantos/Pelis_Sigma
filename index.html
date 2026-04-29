@@ -13,9 +13,10 @@
 <body>
     <header class="navbar">
         <div class="logo">Pelis <span>Sigma</span></div>
-        <nav>
+        <nav class="nav-center">
             <ul class="nav-links">
                 <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#milista">Mi Lista</a></li>
                 <li><a href="#terror">Terror</a></li>
                 <li><a href="#accion">Acción</a></li>
                 <li><a href="#suspenso">Suspenso</a></li>
@@ -23,6 +24,10 @@
                 <li><a href="#comedia">Comedia</a></li>
             </ul>
         </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar...">
+            <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
     </header>
 
     <main id="main-content">
@@ -39,6 +44,38 @@
             <div class="custom-controls">
                 <button id="btn-rewind">⏪ -10s</button>
                 <button id="btn-forward">⏩ +10s</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles de Película -->
+    <div id="details-modal" class="modal">
+        <div class="modal-content details-content">
+            <span class="close-modal" id="close-details-modal">&times;</span>
+            
+            <div class="details-hero">
+                <div class="details-backdrop">
+                    <img id="details-backdrop-img" src="" alt="">
+                    <div class="details-gradient"></div>
+                </div>
+                <div class="details-info">
+                    <h2 id="details-title" class="details-title">Título</h2>
+                    <div class="details-meta">
+                        <span id="details-year" class="meta-year">2024</span>
+                        <span id="details-rating" class="meta-rating">★★★★☆</span>
+                        <span class="meta-quality">4K HDR</span>
+                    </div>
+                    <p id="details-synopsis" class="details-synopsis">Sinopsis...</p>
+                    <div class="details-buttons">
+                        <button id="btn-play-movie" class="btn-primary">
+                            <svg viewBox="0 0 24 24" class="play-icon-svg"><path d="M8 5v14l11-7z"/></svg>
+                            Reproducir
+                        </button>
+                        <button id="btn-close-details" class="btn-secondary">
+                            Volver
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
