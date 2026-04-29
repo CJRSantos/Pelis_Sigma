@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelis Sigma</title>
+    <!-- Google Fonts para un diseño moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Pelis <span>Sigma</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#terror">Terror</a></li>
+                <li><a href="#accion">Acción</a></li>
+                <li><a href="#suspenso">Suspenso</a></li>
+                <li><a href="#romance">Romance</a></li>
+                <li><a href="#comedia">Comedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- El contenido será inyectado por funciones.js -->
+    </main>
+
+    <!-- Modal para reproducir video -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="video-wrapper">
+                <div id="video-iframe"></div>
+            </div>
+            <div class="custom-controls">
+                <button id="btn-rewind">⏪ -10s</button>
+                <button id="btn-forward">⏩ +10s</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
