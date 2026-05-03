@@ -3,7 +3,7 @@
 // Solo necesitas poner el título que quieras que aparezca y el link de YouTube.
 const peliculasData = {
     "Inicio": [
-        { title: "Van Damme, The Legend", url: "https://www.youtube.com/watch?v=6I_OjNEAoOk" },
+        { title: "KICKBOXER", url: "https://www.youtube.com/watch?v=6I_OjNEAoOk" },
         { title: "¿La Peor Película de Superhéroes Jamás Hecha?", url: "https://www.youtube.com/watch?v=8qDEZw9uOkY" },
         { title: "Distrito 13", url: "https://www.youtube.com/watch?v=aXHeBlO6MxQ" },
         { title: "Van Damme - Corazón de León", url: "https://www.youtube.com/watch?v=9d0f8JdLPZY" }
@@ -16,23 +16,82 @@ const peliculasData = {
     "Acción": [
         { title: "Hitman - El Rey de Asesinos", url: "https://www.youtube.com/watch?v=OZzZqSmYEvI" },
         { title: "Imparable", url: "https://www.youtube.com/watch?v=X7jNJM50IX8" },
-        { title: "Apocalypto", url: "https://www.youtube.com/watch?v=tlIYTYFKv24" }
+        { title: "Apocalypto", url: "https://www.youtube.com/watch?v=tlIYTYFKv24" },
+        { title: "Crows Zero (2007)", url: "https://www.youtube.com/watch?v=sPlbB0m64l4" },
+        { title: "Crows Zero II (2009)", url: "https://www.youtube.com/watch?v=s5HHbIFdoIQ" },
+        { title: "Crows Explode (2014)", url: "https://www.youtube.com/watch?v=OsHGZ_unK0E" },
+        { title: "Street Fighter: Puño Asesino (2014)", url: "https://www.youtube.com/watch?v=uKt9q-moqPU&t=6351s" },
+        { title: "Tekken", url: "https://www.youtube.com/watch?v=fy6W5n8dtZI" },
+        { title: "The Killer", url: "https://www.youtube.com/watch?v=al-b5_MlBHM&t=22s" },
+        { title: "La bruja: El experimento", url: "https://www.youtube.com/watch?v=rcFD-Be1Kic&t=635s" },
+        { title: "DOA: Vivo o Muerto", url: "https://www.youtube.com/watch?v=LsURcoi9jNs" },
+        { title: "Mercenarias: Misión Imposible ", url: "https://www.youtube.com/watch?v=wSkP6ABn_eU" },
+        { title: "Venganza Fatal", url: "https://www.youtube.com/watch?v=VaIy6986Dg8" },
+        { title: "RENDIRSE JAMÁS", url: "https://www.youtube.com/watch?v=cfWHgGoV3r8" },
+        { title: "Avengers:EndGame", url: "https://www.youtube.com/watch?v=E6hKL_50UMI" },
+        { title: "El Cazador de Almas", url: "https://www.youtube.com/watch?v=1knu0CkSEHE" },
+        { title: "Into the Badlands - Temporada 1 Completa", url: "https://www.youtube.com/watch?v=FPfQ1q12R78&t=347s" },
+        { title: "El Último Cazador de Brujas", url: "https://www.youtube.com/watch?v=kT85x-U7GbY" },
+        { title: "La Hermandad", url: "https://www.youtube.com/watch?v=PmYKw5TUuo4" },
+        { title: "El Ejecutor", url: "https://www.youtube.com/watch?v=O-gx-61zK-U" },
+        { title: "Venom: El último baile", url: "https://www.youtube.com/watch?v=E1g2ix0SYIc" },
+        { title: "Triple Amenaza (2019)", url: "https://www.youtube.com/watch?v=stVy5AwWRqg" },
+        { title: "Crank: Veneno en la Sangre", url: "https://www.youtube.com/watch?v=btlShY18M5c" },
+        { title: "Kickboxer: Contacto Sangriento 2", url: "https://www.youtube.com/watch?v=1gqbiMmIFR4" },
+        { title: "Inmortales", url: "https://www.youtube.com/watch?v=y4kmLt9XuxE&t=6154s" },
+        { title: "Ghost Rider: Espíritu de Venganza (2011)", url: "https://www.youtube.com/watch?v=syIbvylKDr0" },
+        { title: "Retroceder nunca, Rendirse Jamás", url: "https://www.youtube.com/watch?v=lFGBqBA2FrE" },
+        { title: "EL REY DE LOS KICKBOXERS", url: "https://www.youtube.com/watch?v=5aH6o7prlKc" },
+        { title: "solo los fuertes sobreviven", url: "https://www.youtube.com/watch?v=vubP0MuQwUI" },
+        { title: "Operación Zodiaco", url: "https://www.youtube.com/watch?v=h4y2LxEFLjo" },
+        { title: "Push", url: "https://www.youtube.com/watch?v=3lT03-vWGNc&t=2s" },
+        { title: "La última Pelea", url: "https://www.youtube.com/watch?v=A4N-UeEvJEs" },
+        { title: "Los Indestructibles 2 (2012)", url: "https://www.youtube.com/watch?v=5WpZPea-Du0&t=14s" },
+        { title: "Distrito 13: Ultimátum (2009)", url: "https://www.youtube.com/watch?v=YYKmUquLMcQ" },
+        { title: "Bad Boys", url: "https://www.youtube.com/watch?v=2OThlIjxuaY" },
+        { title: "Destino Mara", url: "https://www.youtube.com/watch?v=mGarJJ4r38o" },
+        { title: "Calles en Guerra", url: "https://www.youtube.com/watch?v=BfP1LYlmy-s" },
+        { title: "El Marine", url: "https://www.youtube.com/watch?v=B6hw9qXssNM&t=10s" },
+        { title: "Sin salida (Abduction) (2011)", url: "https://www.youtube.com/watch?v=IhzizqSy89w" },
+        { title: "Perro Negro", url: "https://www.youtube.com/watch?v=x2YqNFU9vls" },
+        { title: "TALENTO DE BARRIO", url: "https://www.youtube.com/watch?v=En17ljh5ftc" },
+        { title: "El Transportador 3 (2008)", url: "https://www.youtube.com/watch?v=MWManTuGgn4" },
+        { title: "Kickboxer: Represalias (2018)", url: "https://www.youtube.com/watch?v=g-CSouOMSe4" },
+        { title: "Wasabi (2001)", url: "https://www.youtube.com/watch?v=xvr4KLDI6Y4" },
+        { title: "Armados y Peligrosos (2013)", url: "https://www.youtube.com/watch?v=_TgxMM2cbsI" },
+        { title: "SHANGHAI KNIGHTS EN LONDRES", url: "https://www.youtube.com/watch?v=wBeRhafkvog" },
+        { title: "FIREBALL / BOLAS DE FUEGO", url: "https://www.youtube.com/watch?v=GICMPmAFdag" },
+        { title: "El Rey Mono 2 ", url: "https://www.youtube.com/watch?v=7a8GmEz3MCQ" },
+        { title: "El Rey Mono: Conquistador de Demonios ", url: "https://www.youtube.com/watch?v=DJcUe9bSlx4&t=19s" },
+        { title: "Lobo Guerrero 2 ", url: "https://www.youtube.com/watch?v=R-QfvgFhl1A" },
+        { title: "Wu Kong - Contra la Ira de Los Dioses", url: "https://www.youtube.com/watch?v=FhTWl7f4RXg" },
+        { title: "La Leyenda Del Rey Mono (2014)", url: "https://www.youtube.com/watch?v=TcFNhoyR3Uw" },
+        { title: "ONG BAK", url: "https://www.youtube.com/watch?v=ylgobhFvZoY&t=6057s" },
+        { title: "Kung Fu Yoga (2017)", url: "https://www.youtube.com/watch?v=zh01GjmjGcQ" },
+        { title: "Venganza", url: "https://www.youtube.com/watch?v=pU7yUXkvjSA" },
+        { title: "Kickboxer: Venganza (2016)", url: "https://www.youtube.com/watch?v=Hlx2tBFr5JE&t=1s" },
+        { title: "El Gringo", url: "https://www.youtube.com/watch?v=cPumol4rgmg" },
+        { title: "UNDISPUTED 4", url: "https://www.youtube.com/watch?v=12uQU4NYnM0" },
+        { title: "PRISIÓN MORTAL", url: "https://www.youtube.com/watch?v=uo7fJRRx4Iw" },
+        { title: "La Caida del Halcon Negro", url: "https://www.youtube.com/watch?v=XnrJA-ZkMw8&t=5082s" },
     ],
     "Suspenso": [
         { title: "El Ojo del Miedo", url: "https://www.youtube.com/watch?v=HHVqV3idWLg" },
         { title: "ACTIVIDAD PARANORMAL 1", url: "https://www.youtube.com/watch?v=bT8Ez3z0mrU&t=20s" },
-        { title: "El Aro", url: "https://www.youtube.com/watch?v=8Mq46dwT9Ww&t=15s" }
+        { title: "El Aro", url: "https://www.youtube.com/watch?v=8Mq46dwT9Ww&t=15s" },
+        { title: "La Novena Puerta", url: "https://www.youtube.com/watch?v=QskN9E6mCFk" }
     ],
     "Romance": [
         { title: "Un Paraiso Real", url: "https://www.youtube.com/watch?v=RJJ1OElsBUc" },
         { title: "Love Rosie", url: "https://www.youtube.com/watch?v=atpblJBS-W8" },
+        { title: "Amor por Conveniencia", url: "https://www.youtube.com/watch?v=HJm8dqnb6hY" },
         { title: "Amor por Conveniencia", url: "https://www.youtube.com/watch?v=HJm8dqnb6hY" }
     ],
     "Comedia": [
         { title: "El Ultimo Cura del mundo", url: "https://www.youtube.com/watch?v=IKYg5Vz2DVk" },
         { title: "Los Colegas del Barrio", url: "https://www.youtube.com/watch?v=VluxfdNr3hk" },
         { title: "Super Rápidos y Mega Furiosos", url: "https://www.youtube.com/watch?v=e01NVCveGkg" },
-        { title: "¿La Peor Película de Superhéroes Jamás Hecha?", url: "https://www.youtube.com/watch?v=8qDEZw9uOkY" }
+        { title: "Mi Novia Yakuza", url: "https://www.youtube.com/watch?v=v-pFgscWdxk" }
     ]
 };
 
@@ -61,11 +120,11 @@ function getFavoritos() {
 function toggleFavorito(videoID, btnFav, event) {
     event.stopPropagation(); // Evitar que abra el modal
     let favs = getFavoritos();
-    
+
     if (favs.includes(videoID)) {
         favs = favs.filter(id => id !== videoID);
         btnFav.classList.remove('active');
-        
+
         // Si estamos viendo "Mi Lista", desaparecer la tarjeta con animación
         const tituloSeccion = document.querySelector('.category-title');
         if (tituloSeccion && tituloSeccion.textContent === 'Mi Lista') {
@@ -74,10 +133,10 @@ function toggleFavorito(videoID, btnFav, event) {
                 card.style.transition = "opacity 0.3s ease, transform 0.3s ease";
                 card.style.opacity = "0";
                 card.style.transform = "scale(0.8)";
-                
+
                 setTimeout(() => {
                     if (card.parentNode) card.parentNode.removeChild(card);
-                    
+
                     // Si ya no quedan tarjetas, mostrar mensaje de vacío
                     const container = document.querySelector('.movies-container-vertical');
                     if (container && container.children.length === 0) {
@@ -104,7 +163,7 @@ let heroInterval;
 function renderHeroBanner(mainContent) {
     const bannerContainer = document.createElement('div');
     bannerContainer.className = 'hero-banner';
-    
+
     let html = '';
     heroPeliculas.forEach((p, index) => {
         const thumb = getYouTubeThumbnail(p.videoID);
@@ -130,7 +189,7 @@ function renderHeroBanner(mainContent) {
         html += `<div class="dot ${index === 0 ? 'active' : ''}" data-index="${index}"></div>`;
     });
     html += '</div>';
-    
+
     bannerContainer.innerHTML = html;
     mainContent.appendChild(bannerContainer);
 
@@ -162,7 +221,7 @@ function renderHeroBanner(mainContent) {
             document.getElementById('details-title').textContent = btn.getAttribute('data-title');
             document.getElementById('details-synopsis').textContent = btn.getAttribute('data-desc');
             document.getElementById('details-year').textContent = new Date().getFullYear();
-            
+
             const playBtn = document.getElementById('btn-play-movie');
             playBtn.dataset.videoId = videoID;
             detailsModal.classList.add('show');
@@ -233,7 +292,7 @@ function renderCategoria(categoriaBuscada, query = "") {
     // Crear sección
     const section = document.createElement('section');
     section.className = 'category-section vertical-layout';
-    
+
     // Título de la categoría
     const title = document.createElement('h2');
     title.className = 'category-title';
@@ -261,7 +320,7 @@ function renderCategoria(categoriaBuscada, query = "") {
         `;
         container.appendChild(skeletonCard);
     }
-    
+
     section.appendChild(container);
     mainContent.appendChild(section);
 
@@ -274,7 +333,7 @@ function renderCategoria(categoriaBuscada, query = "") {
         peliculasA_mostrar.forEach(pelicula => {
             const videoID = getYouTubeID(pelicula.url);
             const thumbUrl = videoID ? getYouTubeThumbnail(videoID) : 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=640&auto=format&fit=crop';
-            
+
             const card = document.createElement('div');
             card.className = 'movie-card vertical-card';
             if (videoID) card.dataset.videoId = videoID;
@@ -300,26 +359,26 @@ function renderCategoria(categoriaBuscada, query = "") {
                     <h3 class="movie-title">${pelicula.title}</h3>
                 </div>
             `;
-            
+
             // Botón Favorito
             const btnFav = card.querySelector('.btn-fav');
             btnFav.addEventListener('click', (e) => toggleFavorito(videoID, btnFav, e));
-            
+
             // Evento click para abrir el MODAL DE DETALLES
             card.addEventListener('click', () => {
                 if (videoID) {
                     const detailsModal = document.getElementById('details-modal');
-                    
+
                     // Llenar datos
                     document.getElementById('details-backdrop-img').src = thumbUrl;
                     document.getElementById('details-title').textContent = pelicula.title;
                     document.getElementById('details-synopsis').textContent = pelicula.description || generarSinopsisGenerica(pelicula.title);
                     document.getElementById('details-year').textContent = pelicula.year || new Date().getFullYear();
-                    
+
                     // Pasar el videoID al botón de reproducir
                     const playBtn = document.getElementById('btn-play-movie');
                     playBtn.dataset.videoId = videoID;
-                    
+
                     detailsModal.classList.add('show');
                 } else {
                     alert("Esta película no tiene un enlace de YouTube válido.");
@@ -390,15 +449,15 @@ function setupModal() {
         if (videoID) {
             // Ocultar detalles y mostrar video
             detailsModal.classList.remove('show');
-            
+
             const videoModal = document.getElementById('video-modal');
             currentVideoId = videoID;
-            
+
             // Si el reproductor ya está listo, cargamos el video
             if (ytPlayer && typeof ytPlayer.loadVideoById === 'function') {
                 ytPlayer.loadVideoById(videoID);
             }
-            
+
             videoModal.classList.add('show');
         }
     });
