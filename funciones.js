@@ -3,15 +3,56 @@
 // Solo necesitas poner el título que quieras que aparezca y el link de YouTube.
 const peliculasData = {
     "Inicio": [
+        { title: "El Defensor (2011)", url: "https://www.youtube.com/watch?v=hhnYJ9h4qXg" },
         { title: "KICKBOXER", url: "https://www.youtube.com/watch?v=6I_OjNEAoOk" },
         { title: "¿La Peor Película de Superhéroes Jamás Hecha?", url: "https://www.youtube.com/watch?v=8qDEZw9uOkY" },
+        { title: "Estafa Telefónica", url: "https://www.youtube.com/watch?v=-ome6PPNWRM" },
         { title: "Distrito 13", url: "https://www.youtube.com/watch?v=aXHeBlO6MxQ" },
-        { title: "Van Damme - Corazón de León", url: "https://www.youtube.com/watch?v=9d0f8JdLPZY" }
+        { title: "Van Damme - Corazón de León", url: "https://www.youtube.com/watch?v=9d0f8JdLPZY" },
+        { title: "Apocalypto", url: "https://www.youtube.com/watch?v=tlIYTYFKv24" },
+        { title: "Crows Zero (2007)", url: "https://www.youtube.com/watch?v=sPlbB0m64l4" },
+        { title: "Una visita al pasado", url: "https://www.youtube.com/watch?v=NVpipwzPB6g" },
+        { title: "La Liga de los Dioses (2016)", url: "https://www.youtube.com/watch?v=Fecot0wNobY&t=20s" },
+        { title: "La Invocación 2 ", url: "https://www.youtube.com/watch?v=3hL8Ev6g6tk" },
+        { title: "La Caida del Halcon Negro", url: "https://www.youtube.com/watch?v=XnrJA-ZkMw8&t=5082s" },
+        { title: "Super (2010)", url: "https://www.youtube.com/watch?v=Uipm6wbHc8E" },
+        { title: "Kickboxer: Venganza (2016)", url: "https://www.youtube.com/watch?v=Hlx2tBFr5JE&t=1s" },
+        { title: "El Gringo", url: "https://www.youtube.com/watch?v=cPumol4rgmg" },
+        { title: "UNDISPUTED 4", url: "https://www.youtube.com/watch?v=12uQU4NYnM0" },
     ],
     "Terror": [
         { title: "La Llorona", url: "https://www.youtube.com/watch?v=nVcwrOLHNGQ&t=12s" },
         { title: "Jack en la Caja Maldita 3: El Ascenso", url: "https://www.youtube.com/watch?v=IU1JnOIKyQs" },
-        { title: "La Posesión (2016)", url: "https://www.youtube.com/watch?v=xVeyZ5tFK44" }
+        { title: "La Posesión (2016)", url: "https://www.youtube.com/watch?v=xVeyZ5tFK44" },
+        { title: "El Ojo del Miedo", url: "https://www.youtube.com/watch?v=HHVqV3idWLg" },
+        { title: "ACTIVIDAD PARANORMAL 1", url: "https://www.youtube.com/watch?v=bT8Ez3z0mrU&t=20s" },
+        { title: "El Aro", url: "https://www.youtube.com/watch?v=8Mq46dwT9Ww&t=15s" },
+        { title: "La Novena Puerta", url: "https://www.youtube.com/watch?v=QskN9E6mCFk" },
+        { title: "Juego de Charlie Charlie 3", url: "https://www.youtube.com/watch?v=oTQJc-cQBR0&t=26s" },
+        { title: "El Exorcismo de Karen Walker", url: "https://www.youtube.com/watch?v=q76Lmw8Bjr0&t=55s" },
+        { title: "Jack - En la Caja Maldita 2", url: "https://www.youtube.com/watch?v=HWwdyDPcfG8" },
+        { title: "Eventos Sobrenaturales en el Campus", url: "https://www.youtube.com/watch?v=v7GltQT7dr4" },
+        { title: "Juego de Charlie Charlie", url: "https://www.youtube.com/watch?v=1eJc7KwT4wg" },
+        { title: "Juego de Charlie Charlie 4 ", url: "https://www.youtube.com/watch?v=3D-sAQOGVVc" },
+        { title: "La Hija Del Mal - Capítulo Q", url: "https://www.youtube.com/watch?v=KNa-wHhwnfQ&t=93s" },
+        { title: "Siniestro ", url: "https://www.youtube.com/watch?v=g5SqFIGb8-0&t=22s" },
+        { title: "La Invocación 2 ", url: "https://www.youtube.com/watch?v=3hL8Ev6g6tk" },
+        { title: "No Mires ", url: "https://www.youtube.com/watch?v=kdRuGrC6ZBc" },
+        { title: "Camino Hacia el Terror", url: "https://www.youtube.com/watch?v=B_YYZ39boV4" },
+        { title: "El Portal del más Allá", url: "https://www.youtube.com/watch?v=oFNAJTKUgcc" },
+        { title: "LA HIJA DEL MAL. TODOS LOS CAPÍTULOS", url: "https://www.youtube.com/watch?v=EqBA6OjJzXA" },
+        { title: "El Ultimo Rito", url: "https://www.youtube.com/watch?v=NTTU3q0ESvY" },
+        { title: "SAW VII 3D", url: "https://www.youtube.com/watch?v=kidEnVEiPwE" },
+        { title: "Charlie Charlie Returns", url: "https://www.youtube.com/watch?v=Bfm2RA3VlyA" },
+        { title: "Camino hacia el terror 6 ", url: "https://www.youtube.com/watch?v=A37nusedFW4" },
+        { title: "La posesión de Agnes", url: "https://www.youtube.com/watch?v=u4irCRCtPwM" },
+        { title: "La Maldición del Hombre del Saco", url: "https://www.youtube.com/watch?v=posfIDnHCZg" },
+        { title: "11-14- Destino Final", url: "https://www.youtube.com/watch?v=DmJBa564PwE" },
+        { title: "Acoso del Más Allá (2008)", url: "https://www.youtube.com/watch?v=KmKRrlyypHs" },
+        { title: "El Demonio 2 (Jeeper Creeper) ", url: "https://www.youtube.com/watch?v=bwUKlZuizEQ" },
+        { title: "Pernicioso PELÍCULA COMPLETA  ", url: "https://www.youtube.com/watch?v=TAwSKvBS1nw" },
+
+
     ],
     "Acción": [
         { title: "Hitman - El Rey de Asesinos", url: "https://www.youtube.com/watch?v=OZzZqSmYEvI" },
@@ -23,6 +64,8 @@ const peliculasData = {
         { title: "Street Fighter: Puño Asesino (2014)", url: "https://www.youtube.com/watch?v=uKt9q-moqPU&t=6351s" },
         { title: "Tekken", url: "https://www.youtube.com/watch?v=fy6W5n8dtZI" },
         { title: "The Killer", url: "https://www.youtube.com/watch?v=al-b5_MlBHM&t=22s" },
+        { title: "La Liga de los Dioses (2016)", url: "https://www.youtube.com/watch?v=Fecot0wNobY&t=20s" },
+        { title: "Estafa Telefónica", url: "https://www.youtube.com/watch?v=-ome6PPNWRM" },
         { title: "La bruja: El experimento", url: "https://www.youtube.com/watch?v=rcFD-Be1Kic&t=635s" },
         { title: "DOA: Vivo o Muerto", url: "https://www.youtube.com/watch?v=LsURcoi9jNs" },
         { title: "Mercenarias: Misión Imposible ", url: "https://www.youtube.com/watch?v=wSkP6ABn_eU" },
@@ -74,24 +117,21 @@ const peliculasData = {
         { title: "UNDISPUTED 4", url: "https://www.youtube.com/watch?v=12uQU4NYnM0" },
         { title: "PRISIÓN MORTAL", url: "https://www.youtube.com/watch?v=uo7fJRRx4Iw" },
         { title: "La Caida del Halcon Negro", url: "https://www.youtube.com/watch?v=XnrJA-ZkMw8&t=5082s" },
-    ],
-    "Suspenso": [
-        { title: "El Ojo del Miedo", url: "https://www.youtube.com/watch?v=HHVqV3idWLg" },
-        { title: "ACTIVIDAD PARANORMAL 1", url: "https://www.youtube.com/watch?v=bT8Ez3z0mrU&t=20s" },
-        { title: "El Aro", url: "https://www.youtube.com/watch?v=8Mq46dwT9Ww&t=15s" },
-        { title: "La Novena Puerta", url: "https://www.youtube.com/watch?v=QskN9E6mCFk" }
+        { title: "Super (2010)", url: "https://www.youtube.com/watch?v=Uipm6wbHc8E" },
+        { title: "Jackie Chan (Rush Hour)", url: "https://www.youtube.com/watch?v=X-0XRZiiFnQ" },
+        { title: "Around the World in 80 Days (La vuelta al mundo en 80 días)", url: "https://www.youtube.com/watch?v=sLptSP7W1G0" },
     ],
     "Romance": [
         { title: "Un Paraiso Real", url: "https://www.youtube.com/watch?v=RJJ1OElsBUc" },
         { title: "Love Rosie", url: "https://www.youtube.com/watch?v=atpblJBS-W8" },
-        { title: "Amor por Conveniencia", url: "https://www.youtube.com/watch?v=HJm8dqnb6hY" },
         { title: "Amor por Conveniencia", url: "https://www.youtube.com/watch?v=HJm8dqnb6hY" }
     ],
     "Comedia": [
         { title: "El Ultimo Cura del mundo", url: "https://www.youtube.com/watch?v=IKYg5Vz2DVk" },
         { title: "Los Colegas del Barrio", url: "https://www.youtube.com/watch?v=VluxfdNr3hk" },
         { title: "Super Rápidos y Mega Furiosos", url: "https://www.youtube.com/watch?v=e01NVCveGkg" },
-        { title: "Mi Novia Yakuza", url: "https://www.youtube.com/watch?v=v-pFgscWdxk" }
+        { title: "Mi Novia Yakuza", url: "https://www.youtube.com/watch?v=v-pFgscWdxk" },
+        { title: "Super (2010)", url: "https://www.youtube.com/watch?v=Uipm6wbHc8E" },
     ]
 };
 
