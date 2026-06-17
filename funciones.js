@@ -132,6 +132,9 @@ const peliculasData = {
         { title: "Super Rápidos y Mega Furiosos", url: "https://www.youtube.com/watch?v=e01NVCveGkg" },
         { title: "Mi Novia Yakuza", url: "https://www.youtube.com/watch?v=v-pFgscWdxk" },
         { title: "Super (2010)", url: "https://www.youtube.com/watch?v=Uipm6wbHc8E" },
+        { title: "Los 3 Chiflados", url: "https://www.youtube.com/watch?v=zdtuvVpCerU" },
+        { title: "Superhéroes: La Película (Superhero Movie) (2008)", url: "https://www.youtube.com/watch?v=sRVSolMs544" },
+        { title: "Kung Fu Azafata", url: "https://www.youtube.com/watch?v=7ZWWCgiF0C8" },
     ]
 };
 
@@ -551,6 +554,7 @@ if (firstScriptTag) {
 // Esta función es llamada automáticamente por la API de YouTube cuando está lista
 function onYouTubeIframeAPIReady() {
     ytPlayer = new YT.Player('video-iframe', {
+        host: 'https://www.youtube-nocookie.com',
         height: '100%',
         width: '100%',
         videoId: currentVideoId || '', // Cargar video si ya se hizo clic en uno
@@ -560,7 +564,8 @@ function onYouTubeIframeAPIReady() {
             'enablejsapi': 1,
             'modestbranding': 1,
             'fs': 1,
-            'playsinline': 1
+            'playsinline': 1,
+            'origin': window.location.origin
         }
     });
 }
